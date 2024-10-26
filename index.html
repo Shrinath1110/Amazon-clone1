@@ -14,17 +14,23 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
+            <div class="d-flex align-center logo-menu">
+                <div class="panel-all d-md-none">
+                    <i class="fa-solid fa-bars"></i>
+                    <span class="all-size"> all</span>
+                </div>
+                <div class="nav-logo border">
+                    <div class="logo"></div>
+                </div>
             </div>
-            <div class="nav-address border">
+            <div class="nav-address border d-none">
                 <p class="address-first"> delivar to</p>
                 <div class="add icon">
                     <i class="fa-solid fa-location-dot"></i>
                     <p class="address-second">India</p>
                 </div>
             </div>
-            <div class="nav-search">
+            <div class="nav-search d-none">
                 <select class="search-select">
                     <option>
                         all
@@ -35,25 +41,38 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-            <div class="nav-signin border">
-                <p><span>hello, sign in</span></p>
-                <p class="nav-second">account & lists</p>
+            <div class="d-flex align-center">
+                <div class="nav-signin border">
+                    <p><span class="d-none">hello, </span><span class="base mr-5"> sign in </span><i class="d-md-none mr-5 fa-solid fa-user fa-2x"></i></p>
+                    <p class="nav-second d-none">account & lists</p>
+                </div>
+                <div class="return border d-none">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& orders</p>
+                </div>
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="d-none"> cart </span>
+                </div>
             </div>
-            <div class="return border">
-                <p><span>Returns</span></p>
-                <p class="nav-second">& orders</p>
-            </div>
-            <div class="nav-cart border">
-                <i class="fa-solid fa-cart-shopping"></i>
-                cart
+        </div>
+        <div class="d-md-none nav-search">
+            <select class="search-select">
+                <option>
+                    all
+                </option>
+            </select>
+            <input placeholder="search amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
         </div>
 
         <div class="panel">
-            <div class="panel-all">
+            <div class="panel-all d-none">
                 <i class="fa-solid fa-bars"></i>
-                all
+                <span class="all-size"> all</span>
             </div>
             <div class="panel-ops">
                 <p>Today's Deals</p>
@@ -153,65 +172,65 @@
     </div>
 
 
-<footer>
-    <div class="foot-panel1">
-        Back to Top
-    </div>
-
-    <div class="foot-panel2">
-        <ul>
-            <p>Get to Know Us</p>
-            <a>Careers</a>
-            <a>Blog</a>
-            <a>About Amazon</a>
-            <a>Investor Relations</a>
-            <a>Amazon Devices</a>
-            <a>Amazon Science</a>
-        </ul>
-        <ul>
-            <p>Get to Know Us</p>
-            <a>Careers</a>
-            <a>Blog</a>
-            <a>About Amazon</a>
-            <a>Investor Relations</a>
-            <a>Amazon Devices</a>
-            <a>Amazon Science</a>
-        </ul>
-        <ul>
-            <p>Get to Know Us</p>
-            <a>Careers</a>
-            <a>Blog</a>
-            <a>About Amazon</a>
-            <a>Investor Relations</a>
-            <a>Amazon Devices</a>
-            <a>Amazon Science</a>
-        </ul>
-        <ul>
-            <p>Get to Know Us</p>
-            <a>Careers</a>
-            <a>Blog</a>
-            <a>About Amazon</a>
-            <a>Investor Relations</a>
-            <a>Amazon Devices</a>
-            <a>Amazon Science</a>
-        </ul>
-
-    </div>
-    <div class="foot-panel3">
-        <div class="logo"></div>
-    </div>
-    <div class="foot-panel4">
-        <div class="pages">
-            <a>Conditions of Use</a>
-            <a>Privacy Notice</a>
-            <a>Consumer Health Data Privacy Disclosure</a>
-            <a>Your Ads Privacy Choices</a>
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
         </div>
-        <div class="copyright">
-            © 1996-2024, Amazon.com, Inc. or its affiliates
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul class="ul-delete">
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul class="ul-delete">
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+
         </div>
-    </div>
-</footer>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Consumer Health Data Privacy Disclosure</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
